@@ -7,6 +7,7 @@ Credits to Liam Vickers for the design, and credits to [Crafting Interpreters](h
 ## How to use (Command wise)
 
 exe file.npp // args?
+
 nppc2 file.npp // args?
 
 ## How to use (Code wise)

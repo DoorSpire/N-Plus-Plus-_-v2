@@ -153,9 +153,11 @@ void printInterpretedString(const char* str) {
                 case '0':
                     putchar('\0');
                     break;
+                case '\'':
+                    putchar('\"');
+                    break;
                 default:
-                    putchar('\\');
-                    putchar(*str);
+                    runtimeError("Unrecognized escape key '%s'", *str);
                     break;
             }
         } else {
